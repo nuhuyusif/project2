@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ body {
+    background: #FAF8F6; 
+    height :100vh;
+    overflow-x: hidden; 
+}
+
+ .main-contaiter { 
+    width: 90%;
+    margin: 0 auto;
+}
+
+ /* nav begins here */
+
+ .nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 810px;
+    margin: 50px;
+    position: relative;
+    left: 40px;
+}
+
+ .nav button {
+    width: 219px;
+    height: 56px;
+    flex-shrink: 0;
+    border: 1px solid;
+    border-radius: 6px;
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.16px;
+    cursor: pointer;
+}
+
+ .nav button:hover{
+    border: 1px solid var(--Dark-Blue, #172339);
+    background: var(--Dark-Blue, #172339);
+    color: white;
+    transition: 0.5s;
+}
+  /* nav ends here */
+
+  /* middle begins here */
+ .middle {
+    width: 1209px;
+    height: 995px;
+    display: flex; 
+    border: 0px solid;
+    padding: 50px; 
+    height: auto;
+    position: relative;
+    left: 30px;
+    
+
+}
+
+ .middle .text h1 {
+    width: 635px; 
+    color: #172339;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px; /* 108.333% */
+    letter-spacing: -1px;
+    /* margin-top: 60px; */
+    position: relative;
+    top: 80px;
+}
+
+ .middle .text p {
+    /* padding: 10px; */
+    color: var(--Grey, #49566D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body */
+    font-family: Epilogue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: 0.1px;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 130px;
+
+}
+
+.text button {
+    width: 256px;
+    height: 61px;
+    color: var(--Cream-White, #FAF8F6);
+    background-color: rgb(3, 3, 49);
+    font-family: Epilogue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    border-radius: 6px;
+    /* margin-top: 40px; */
+    position: relative;
+    top: 180px;
+    cursor: pointer;
+ }
+
+
+ .text button:hover{
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+    border: 0px;
+    /* transition: 0.5s; */
+}
+
+ .middle .curved-line img {
+    width: 280px;
+    height: 30px;
+    flex-shrink: 0;
+    /* margin-left: -350px;
+    margin-bottom: -35px; */
+    position: relative;
+    left: -360px;
+    bottom: -25px;
+    z-index: 1;
+}
+
+.middle .iphone {
+    position: relative;
+    left: -300px;
+}
+
+ .middle .iphone  img {
+    width: 350px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    /* margin-top: -35px;  */
+    /* margin-left: -165px; */
+    position: relative;
+    left: -150px;
+    top: -25px;
+}
+
+ .text{
+   z-index: 1;
+   
+ } 
+
+ .ranks {
+    position: relative;
+    left: -330px;
+    top: 30px;
+
+ }
+
+ .ranks h3 {
+    width: 190px;
+    color: var(--Dark-Blue, #172339);
+    font-family: Epilogue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.5px;
+    margin: 10px; 
+    margin-top: 40px;
+    margin-left: -5px;
+    
+}
+
+ .ranks label {
+    width: 190px;
+    color: var(--Grey, #49566D);
+    font-feature-settings: 'clig' off, 'liga' off;
+     /* Heading S */
+    font-family: Epilogue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.5px;
+    
+}
+
+
+ /* down begins here */
+ .down {
+    display: flex;
+    width: 1109px;
+    height: 545px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--Dark-Blue, #172339);
+    position: relative;
+    left: 80px;
+    top: 100px;
+    
+}
+
+ .man img {
+    width: 359.81px;
+    height: 589.557px;
+    flex-shrink: 0;
+    margin-top: -45px;
+    margin-left: -430px;
+}
+ .arc img {
+    width: 64.049px;
+    height: 52px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: #FAF8F6;
+    margin-top: 160px;
+    margin-left: -15px;
+}
+
+ .down-text-h3 {
+    color: #FAF8F6;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.5px;
+    margin: 50px;
+    padding-top: 30px; 
+    
+    
+}
+
+ span {
+    color: #FAF8F6;
+    font-feature-settings: 'clig' off, 'liga' off; 
+
+/* Heading L */
+    font-family: Epilogue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+
+ .down-text-p {
+    color: var(--Cream, #F3EDE7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Quote */
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 175% */
+    letter-spacing: 0.1px;
+    margin: 50px;
+}
+
+ .down-text-name {
+    color: var(--Cream-White, #FAF8F6);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Heading M */
+    font-family: Epilogue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    /* margin-top: 15px; */
+    margin-left: 47px;
+}
+
+
+ /* footer begins here */
+ footer {
+    background: var(--Cream, #F3EDE7);
+    width: 1410px;
+    height: 464px;
+    flex-shrink: 0;
+    position: relative;
+    top: -160px;
+    z-index: -1;
+}
+
+
+.all {
+    width: 1109px;
+    height: 32px;
+    flex-shrink: 0;
+    position: relative;
+    top: 370px;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all .copyright p {
+    color: var(--Grey, #49566D);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+/* Footer */
+    font-family: Epilogue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 213.333% */
+    letter-spacing: 0.083px;
+}
+
+.social-media {
+    height: 20px;
+    gap: 15px;
+    display:flex; 
+    cursor: pointer;
+}
+
+ .social-media img:hover {
+    background: gray;
+    transition: 0.5s;
+ }
+
+
+ 
+
+

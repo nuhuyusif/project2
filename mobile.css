@@ -1,0 +1,300 @@
+ /* for mobile */
+ @media only screen and (max-width:430px){
+  .main-container {
+    width: 375px;
+    height: 2389px;
+   } 
+
+   /* nav begins here */
+ .nav {
+  display: flex;
+  width: 343px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  position: relative;
+  left: -40px;
+ } 
+
+ .nav button {
+  width: 182px;
+  height: 48px;
+  flex-shrink: 0;
+ } 
+ /* nav ends here */
+
+ /* Middle begines here */
+
+ .middle {
+  border: 0px solid;
+  padding: 50px; 
+  height: auto;
+  position: relative;
+  left: -10px;
+  top: -90px;
+  flex-direction: column; 
+   
+ } 
+
+  .middle .text h1 {
+  width: 343px;
+  color: #172339;
+  font-family: Epilogue;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400; 
+  line-height: 46px; /* 115.789% */
+  letter-spacing: -0.528px;
+  position: relative;
+  /* top: px; */
+  left: -61px;   
+ } 
+
+  .middle .text p { 
+  width: 343px;
+  color: var(--Grey, #49566D);
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  letter-spacing: 0.089px;
+  position: relative;
+  left: -61px; 
+ } 
+
+  .middle .text button {
+  width: 256px;
+  height: 61px;
+  flex-shrink: 0;
+  position: relative;
+  left: -61px; 
+ }
+
+ .middle .curved-line {
+  position: relative;
+  left: 60px;
+  top: -230px;
+ }
+
+
+  .middle .curved-line img {
+  width: 151.472px;
+  height: 19px;
+  flex-shrink: 0;
+  position: relative;
+  top: 22px;
+  left: 60px;
+ }
+ 
+ .middle .iphone {
+  position: relative;
+  left: 20px;
+ }
+
+  .middle .iphone  img {
+  width: 343px;
+  height: 240px;
+  position: relative;
+  top: 160px;
+  left: -52px;
+  display: none; 
+ }
+
+ .ranks::before {
+  content: url(images/image-hero-landscape.png);
+  width: 343px;
+  height: 240px;
+  position: relative;
+  /* top: -200px; */
+  left: -2px;
+ }
+
+
+ .middle .ranks {
+  width: 375px;
+  height: auto;
+  flex-direction: column;
+  position: relative;
+  top: -440px; 
+  left: -45px;
+  gap: 0px;  
+ } 
+
+ 
+ .middle .ranks h3 {
+  width: 343px;
+  color: var(--Dark-Blue, #172339);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 116.667% */
+  position: relative;
+  left: 10px;
+
+ } 
+
+  .middle .ranks label {
+  width: 343px;
+  color: var(--Grey, #49566D);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 2.5px;
+  position: relative;
+  top: 50px;
+ } 
+
+  label[for="lan"] {
+  position: relative;
+  left: -1.5px;
+ } 
+
+
+
+ /* Down begins here */
+  .down {
+  width: 375px;
+  height: 748px;
+  flex-shrink: 0; 
+  position: relative;
+  top: -300px;
+  left: -7px; 
+  
+  
+ }
+/* 
+ .down .man {
+
+ } */
+
+ .down .man img {
+  width: 252px;
+  height: 402px;
+  flex-shrink: 0;
+   position: relative;
+  top: -130px;
+  left: 299px; 
+ } 
+
+ .down .blur {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  left: 70px;
+ }
+
+ .down .blur img {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 5px;  
+  left: -65px; 
+ } 
+
+ .down .arc  { 
+   
+  width: 280px; 
+  position: relative;
+  /* top: px; */
+  left: -180px;  
+
+ }  
+
+ .down .arc img {
+  width: 49.268px;
+  height: 40px;
+  flex-shrink: 0; 
+  
+ } 
+
+ .down .down-text {
+  width: 376px;
+  position: relative;
+  left: -490px;
+ }
+
+ .down .down-text-h3 h3 {
+  width: 573px;
+  color: #FAF8F6;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  letter-spacing: -0.417px;
+  position: relative;
+  right: -10px;
+ }
+
+  span {
+    color: #FAF8F6;
+    font-feature-settings: 'clig' off, 'liga' off; 
+
+/* Heading L */
+    font-family: Epilogue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+
+
+ .down .down-text .down-text-p {
+  width: 343px;
+  color: var(--Cream, #F3EDE7);
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 0.09px;
+  position: relative;
+  right: -9px;
+ }
+ /* down ends here */
+
+ /* footer begins here */
+
+ footer {
+  width: 377px;
+  height: 420px;
+  flex-shrink: 0;
+  position: relative;
+  top: -350px;
+  left: -10px;
+  /* z-index: 1; */
+ }
+
+ footer .all {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+  position: relative;
+  top: 220px;
+  left: -150px;
+  /* z-index: -1; */
+
+ }
+
+
+
+ 
+ 
+
+ 
+ 
+
+
+} 
